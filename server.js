@@ -20,7 +20,7 @@ async function GetConnection1() {
 //////////////////// Express setup //////////////////////
 const eobj = express();
 eobj.use(cors({
-    origin: 'http://localhost:4200/',
+    origin: 'http://localhost:4200',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     headers: ['Content-Type', "Access-Control-Allow-Headers"]
 }));
