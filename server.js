@@ -27,7 +27,7 @@ eobj.use(cors({
 eobj.use(express.json());
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server running on port ${port}`));
+eobj.listen(port, () => console.log(`Server running on port ${port}`));
 
 
 //////////////////// Controllers //////////////////////
