@@ -20,7 +20,7 @@ async function GetConnection1() {
 //////////////////// Express setup //////////////////////
 const eobj = express();
 eobj.use(cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://backend-resto.onrender.com/',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     headers: ['Content-Type', "Access-Control-Allow-Headers"]
 }));
