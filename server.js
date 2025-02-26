@@ -20,7 +20,7 @@ async function GetConnection1() {
 //////////////////// Express setup //////////////////////
 const eobj = express();
 eobj.use(cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://resto-project-six.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     headers: ['Content-Type', "Access-Control-Allow-Headers"]
 }));
